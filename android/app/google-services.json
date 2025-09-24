@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "116869785844",
+    "project_id": "fireplay-c82d0",
+    "storage_bucket": "fireplay-c82d0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116869785844:android:a5ffb014211802f4ce96a1",
+        "android_client_info": {
+          "package_name": "com.akhil.flutter_chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGEfOo__2lfWgkY91gKXDZQT2Nf5pZzC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
