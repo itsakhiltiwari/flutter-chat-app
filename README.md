@@ -20,6 +20,7 @@ A real-time, production-grade chat application built with Flutter and Firebase. 
 
 This project is built using the principles of **Clean Architecture**. This approach separates the code into distinct layers, making it easier to manage, scale, and test.
 
+```bash
 +---------------------------------------------------+
 | Presentation Layer |
 | (UI: Widgets, Pages, State Management: Provider) |
@@ -38,6 +39,7 @@ v
 | Data Layer |
 | (Data Sources: Firebase API, Caching, Models) |
 +---------------------------------------------------+
+```
 
 - **Presentation Layer**: Contains all the UI elements (Widgets, Pages) and state management logic (Providers). It is responsible for displaying data and handling user interactions.
 - **Domain Layer**: This is the core of the application. It contains the business logic, defining entities (like `UserEntity`) and repository contracts (abstract classes). This layer is independent of any framework.
@@ -109,6 +111,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 The code is organized within the `lib` folder, following a feature-first approach with Clean Architecture layers.
 
+```bash
 /lib
 |-- core/ # Shared logic, error handling, usecases
 |-- features/
@@ -123,3 +126,4 @@ The code is organized within the `lib` folder, following a feature-first approac
 | `-- presentation/
 |
 |-- main.dart # App entry point
+```
